@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 100px;
+    width: 500px;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#praha {
+    background-image: url('https://cdn.kudyznudy.cz/files/a0/a069d95b-4df9-464c-b15d-6a6dc3c9941e.webp?v=20230626121110');
+    background-position: center;
+}
+
+#louny {
+    background-image: url('https://www.payne.cz/3xS43787/Louny9.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#zatec {
+    background-image: url('https://www.e-chalupy.cz/img/vylety/zatec-215585.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#brno {
+    background-image: url('https://www.cestujlevne.com/obrazky/29/16/72916-1200w.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#liberec {
+    background-image: url('https://st2.depositphotos.com/2567911/47966/i/1600/depositphotos_479665434-stock-photo-liberec-czech-republic-june-02.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.weather-info {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    height: 135px;
+    width: 500px;
+}
